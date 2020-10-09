@@ -1,0 +1,51 @@
+09:45:17 [restartedMain] DEBUG o.s.b.c.l.ClasspathLoggingApplicationListener - Application started with classpath: [file:/E:/1学习/stackoverflow-cn/target/classes/, file:/D:/maven/repo/tk/mybatis/mapper-spring-boot-starter/1.1.4/mapper-spring-boot-starter-1.1.4.jar, file:/D:/maven/repo/tk/mybatis/mapper-spring-boot-autoconfigure/1.1.4/mapper-spring-boot-autoconfigure-1.1.4.jar, file:/D:/maven/repo/tk/mybatis/mapper/3.4.3/mapper-3.4.3.jar]
+09:45:17 [background-preinit] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+09:45:17 [background-preinit] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+09:45:17 [background-preinit] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.resolver.JPATraversableResolver as ValidatorFactory-scoped traversable resolver.
+09:45:17 [background-preinit] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+09:45:17 [background-preinit] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+09:45:17 [background-preinit] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+09:45:18 [restartedMain] INFO  c.a.e.s.StackOverFlowMain - Starting StackOverFlowMain on DESKTOP-MFO9BQR with PID 5292 (E:\1学习\stackoverflow-cn\target\classes started by rocky in E:\1学习\stackoverflow-cn)
+09:45:18 [restartedMain] DEBUG c.a.e.s.StackOverFlowMain - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+09:45:18 [restartedMain] INFO  c.a.e.s.StackOverFlowMain - No active profile set, falling back to default profiles: default
+09:45:18 [restartedMain] DEBUG o.s.boot.SpringApplication - Loading source class com.ali.edu.stackoverflow.StackOverFlowMain
+09:45:18 [restartedMain] DEBUG o.s.b.c.c.ConfigFileApplicationListener - Loaded config file 'file:/E:/1%e5%ad%a6%e4%b9%a0/stackoverflow-cn/target/classes/application.yml' (classpath:/application.yml)
+09:45:18 [restartedMain] DEBUG o.s.b.d.restart.ChangeableUrls - Matching URLs for reloading : [file:/E:/1学习/stackoverflow-cn/target/classes/, file:/D:/maven/repo/tk/mybatis/mapper-spring-boot-starter/1.1.4/mapper-spring-boot-starter-1.1.4.jar, file:/D:/maven/repo/tk/mybatis/mapper-spring-boot-autoconfigure/1.1.4/mapper-spring-boot-autoconfigure-1.1.4.jar, file:/D:/maven/repo/tk/mybatis/mapper/3.4.3/mapper-3.4.3.jar]
+09:45:18 [restartedMain] DEBUG o.s.b.d.s.DevToolsSettings - Included patterns for restart : [/mapper-[\w-\.]+jar]
+09:45:18 [restartedMain] DEBUG o.s.b.d.s.DevToolsSettings - Excluded patterns for restart : [/spring-boot-starter-[\w-]+/, /spring-boot/(bin|build|out)/, /spring-boot-starter/(bin|build|out)/, /spring-boot-devtools/(bin|build|out)/, /spring-boot-actuator/(bin|build|out)/, /spring-boot-autoconfigure/(bin|build|out)/]
+09:45:18 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+09:45:18 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+09:45:18 [restartedMain] DEBUG o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@33a92da4
+09:45:18 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+09:45:18 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+09:45:18 [restartedMain] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [E:\1学习\stackoverflow-cn\target\classes\com\ali\edu\stackoverflow\controller\PostController.class]
+09:45:18 [restartedMain] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [E:\1学习\stackoverflow-cn\target\classes\com\ali\edu\stackoverflow\crawler\ScheduledSendEmail.class]
+09:45:18 [restartedMain] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [E:\1学习\stackoverflow-cn\target\classes\com\ali\edu\stackoverflow\event\EventConsumer.class]
+09:45:18 [restartedMain] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [E:\1学习\stackoverflow-cn\target\classes\com\ali\edu\stackoverflow\event\EventProducer.class]
+09:45:19 [restartedMain] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [E:\1学习\stackoverflow-cn\target\classes\com\ali\edu\stackoverflow\exception\GlobeExceptionHandler.class]
+09:45:19 [restartedMain] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [E:\1学习\stackoverflow-cn\target\classes\com\ali\edu\stackoverflow\service\JdItemServiceImpl.class]
+09:45:19 [restartedMain] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [E:\1学习\stackoverflow-cn\target\classes\com\ali\edu\stackoverflow\utils\HttpUtils.class]
+09:45:19 [restartedMain] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'spring.template.provider.cache' in PropertySource 'configurationProperties' with value of type String
+09:45:19 [restartedMain] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'spring.jmx.enabled' in PropertySource 'configurationProperties' with value of type String
+09:45:19 [restartedMain] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'spring.datasource.url' in PropertySource 'configurationProperties' with value of type String
+09:45:19 [restartedMain] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'spring.jmx.enabled' in PropertySource 'configurationProperties' with value of type String
+09:45:19 [restartedMain] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'spring.application.admin.enabled' in PropertySource 'configurationProperties' with value of type String
+09:45:20 [restartedMain] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'spring.template.provider.cache' in PropertySource 'configurationProperties' with value of type String
+09:45:20 [restartedMain] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'spring.jmx.enabled' in PropertySource 'configurationProperties' with value of type String
+09:45:20 [restartedMain] DEBUG o.m.s.b.a.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+09:45:20 [restartedMain] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.AutoConfigurationPackages'
+09:45:20 [restartedMain] DEBUG o.s.b.a.AutoConfigurationPackages - @EnableAutoConfiguration was declared on a class in the package 'com.ali.edu.stackoverflow'. Automatic @Repository and @Entity scanning is enabled.
+09:45:20 [restartedMain] DEBUG o.m.s.b.a.MybatisAutoConfiguration - Using auto-configuration base package 'com.ali.edu.stackoverflow'
+09:45:20 [restartedMain] DEBUG o.m.s.m.ClassPathMapperScanner - Identified candidate component class: file [E:\1学习\stackoverflow-cn\target\classes\com\ali\edu\stackoverflow\dao\JdItemDao.class]
+09:45:20 [restartedMain] DEBUG o.m.s.m.ClassPathMapperScanner - Creating MapperFactoryBean with name 'jdItemDao' and 'com.ali.edu.stackoverflow.dao.JdItemDao' mapperInterface
+09:45:20 [restartedMain] DEBUG o.m.s.m.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'jdItemDao'.
+09:45:20 [restartedMain] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'spring.jmx.enabled' in PropertySource 'configurationProperties' with value of type String
+09:45:20 [restartedMain] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'spring.application.admin.enabled' in PropertySource 'configurationProperties' with value of type String
+09:45:20 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+09:45:20 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+09:45:20 [restartedMain] DEBUG o.s.d.r.c.RepositoryConfigurationDelegate - Scanning for MongoDB repositories in packages com.ali.edu.stackoverflow.
+09:45:20 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15ms. Found 0 MongoDB repository interfaces.
+09:45:21 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+09:45:21 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+09:45:21 [restartedMain] DEBUG o.s.d.r.c.RepositoryConfigurationDelegate - Scanning for Redis repositories in packages com.ali.edu.stackoverflow.
+09:45:21 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5ms. Found 0 Redis repository interfaces.
