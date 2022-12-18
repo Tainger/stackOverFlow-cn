@@ -2,6 +2,7 @@ package com.ali.edu.stackoverflow.exception;
 
 /**
  * 定义一个全局异常
+ * @author rocky
  */
 public class GlobalException extends RuntimeException {
 

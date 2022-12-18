@@ -1,24 +1,24 @@
 server:
-  port: 80
+  port: 8082
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://47.99.183.154:31052/prd_esms?characterEncoding=utf-8&useSSL=false&serverTimezone=Hongkong
+    url: jdbc:mysql://localhost:3306/prd_esms?characterEncoding=utf-8&useSSL=false&serverTimezone=Hongkong
     username: root
-    password: Fpi@123456
-  data:
-    mongodb:
-      uri: mongodb://localhost:27017/testdb
-  kafka:
-    bootstrap-servers: localhost:9092
-    producer:
-      acks: all                          #0 不保证数据一定发送成功,发送效率最高   1 保证leader成功并持久化,不保证follower是否写成功   all最强保证,效率最低
-    consumer:
-      group-id: group
-  jpa:
-    #    hibernate:
-    #      ddl-auto: update
-    show-sql: true
+    password: jia19971210
+#  data:
+#    mongodb:
+#      uri: mongodb://localhost:27017/testdb
+#  kafka:
+#    bootstrap-servers: localhost:9092
+#    producer:
+#      acks: all                          #0 不保证数据一定发送成功,发送效率最高   1 保证leader成功并持久化,不保证follower是否写成功   all最强保证,效率最低
+#    consumer:
+#      group-id: group
+#  jpa:
+#    #    hibernate:
+#    #      ddl-auto: update
+#    show-sql: true
   redis:
     database: 0
     host: localhost

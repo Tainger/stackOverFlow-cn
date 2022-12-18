@@ -8,12 +8,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="stackoverflow-cn" />
+        <module name="stackOverFlow-cn" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="12" />
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="stackOverFlow-cn" options="-parameters" />
       <module name="stackoverflow-cn" options="-parameters" />
     </option>
   </component>
