@@ -5,7 +5,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/prd_esms?characterEncoding=utf-8&useSSL=false&serverTimezone=Hongkong
     username: root
-    password: jia19971210
+    password: jia19971210.
 #  data:
 #    mongodb:
 #      uri: mongodb://localhost:27017/testdb
@@ -19,16 +19,16 @@ spring:
 #    #    hibernate:
 #    #      ddl-auto: update
 #    show-sql: true
-  redis:
-    database: 0
-    host: localhost
-    port: 6379
-    lettuce:
-      pool:
-        max-active: 8
-        max-wait: -1
-        max-idle: 8
-        min-idle: 0
+#  redis:
+#    database: 0
+#    host: localhost
+#    port: 6379
+#    lettuce:
+#      pool:
+#        max-active: 8
+#        max-wait: -1
+#        max-idle: 8
+#        min-idle: 0
 mybatis:
   mapper-locations: classpath:/mapper/*.xml
   type-aliases-package: com.alieducation.entity
@@ -50,3 +50,9 @@ mybatis:
 #  #指定不同目录下的日志的级别
 #  level:
 #    com.shimain.springboot.mapper: DEBUG
+
+logging:
+  level:
+    root: info
+    com.mzz.example.controller: info
+    com.mzz.example.service: info
